@@ -1,0 +1,125 @@
+#########################################
+#		BOT2TEST		#
+#########################################
+
+Merci de ne pas vendre ou faire un usage commercial de ce que nous vous proposons !
+
+Tout ce que nous mettons sur Github est sous licence et ne doit être utilisé que dans un but éducatif et de simplicité de fabrication.
+
+Si toutefois des personnes venaient à vendre nos réalisations, merci de nous le signaler, nous ferrons tout notre possible pour les en empêcher.
+
+#########################################
+
+Bonjour/Bonsoir, voici les étapes à suivre avant de faire quoi que ce soit avec le bot !
+
+Pour commencer, vous devez trouver les fichiers suivants :
+
+index.js
+config.json
+package.json
+
+Dans chaque fichier (sauf les json) tout est expliqué pour que la configuration et la programmation de ce bot
+soit des plus amusantes.
+
+Etape 1 - Avant utilisation
+
+Avant d'utiliser le bot il faut installer les packages ( ou paquets en français ).
+Ils permettent au bot d'effectuer des tâches complexes mais aussi de le faire fonctionner.
+
+Nous allons devoir installer les packages contenus dans package.json ainsi que les packages contenus dans le fichier index.js
+
+Je vous en fait la liste ci-dessous :
+
+Par défaut :
+discord.js
+moment
+Pour le ban et le mute :
+ms
+
+Pour se faire, vous allez ouvrir la console pour_lancer_le_bot.bat et vous allez y écrire
+
+npm i discord.js moment
+
+Les deux packages s'installeront tout seul.
+
+ATTENTION ! discord.js est un énorme package ! Il contient environ 30 à 40 packages donc ne vous attendez pas à
+ce que cela s'installe en 10 secondes ! Comptez plutôt plusieurs minutes !
+
+Dès que tout se sera installé vous devrez aller configurer le fichier config.json .
+
+#########################################
+
+Etape 2 - Configurer le bot
+
+Rendez-vous dans le fichier config.json.
+
+Vous devriez avoir ceci :
+
+{
+"token":"Le token du bot",
+"OwnerID":"Votre ID",
+"nivperms":"8", 
+"prefix":"-", 
+"OwnerName":"Votre Pseudo",
+"BotName":"Le nom du bot",
+"version":"La version du bot"
+}
+
+Veuillez renseigner votre ID discord ( clique-droit sur votre pseudo, Copier l'identifiant ) à la place de Votre ID.
+nivperms indique le niveau de permission du bot. 8 c'est le niveau de permission Administrateur.
+Vous pouvez le changer en vous rendant ici :
+https://discordapi.com/permissions.html#0
+
+Il suffira juste que vous renseignez l'ID de votre bot et cliquez sur des cases pour donner des permissions ou en enlever.
+Cela ne sert à rien de rajouter plus de permissions que le niveau 8 car c'est le niveau maximal que vous pourrez atteindre :D
+Vous ne pouvez donc qu'en enlever.
+
+prefix c'est le prefixe du bot ( le / $ // ? ! -- qu'on tout les bots avant de taper une commande ).
+OwnerName c'est votre Pseudo.
+BotName c'est le nom que vous souhaitez donner au bot.
+version c'est bien entendu la version du bot.
+
+et enfin... token .
+Alors ça c'est plus compliqué.
+
+Le token est la clef secrète de votre bot.
+Elle permet de le contrôler intégralement.
+Si on vous la vol, la personne pourra faire ce qu'elle souhaite à votre bot.
+
+Conservez-la précieusement et ne la mettait pas de façon visible dans le code ( ici elle est dans un fichier externe au code ).
+
+Pour obtenir un token vous devez vous rendre ici :
+https://discordapp.com/developers/applications
+
+Connectez-vous avec votre compte discord et créé un bot comme ceci :
+
+New Application >
+
+Nommez le bot puis :
+
+Bot > Add Bot > Yes, do it!
+
+Puis cliquez sur Copy sous Click to Reveal Token.
+
+Vous venez de copier le token !
+Mettez-le à la place de la phrase " Le token du bot ".
+
+Vous avez finit de configurer le fichier config.json !
+
+#########################################
+
+Etape 3 - Lancer le bot
+
+Le bot est fin prêt !
+
+Pour le lancer, cliquez sur pour_lancer_le_bot.bat et écrivez :
+
+node index.js
+
+Le bot devrait se lancer correctement.
+
+Si il y a une erreur, n'hésitez pas à me le signaler sur le discord Pimp My bot !
+
+https://discord.me/pimpmybot
+
+Et si vous pouviez parler de Bot2Test autour de vous ça serait cool ! Plus on est nombreux plus on rit !
