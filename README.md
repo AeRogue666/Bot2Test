@@ -1,4 +1,4 @@
-# Bot2Test
+# Bot2Test (v.FR)
 Le Bot Discord pour les nuls - Créer son bot Discord sans savoir coder !
 
 Vous avez toujours rêvez d'avoir votre propre bot Discord mais vous ne savez pas comment vous y prendre ? Quel langage utilisé ?  
