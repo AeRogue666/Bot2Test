@@ -19,3 +19,18 @@ Merci de ne pas vendre ou faire un usage commercial de ce que nous vous proposon
 Tout ce que nous mettons sur Github est sous licence et ne doit être utilisé que dans un but éducatif et de simplicité de fabrication.
 
 Si toutefois des personnes venaient à vendre nos réalisations, merci de nous le signaler, nous ferrons tout notre possible pour les en empêcher.
+
+
+Version anglaise disponible ici : https://github.com/BinaryBreakFast/Bot2Test-EN
+
+
+Mise à jour effectuée - 02/02/2019 - 0.0.1b
+
+- Mise à jour de la console pour permettre d'inviter le bot sur votre Discord sans faire de manipulation particulière.
+- Mise à jour de la commande d'invitation pour vous permettre de choisir entre permettre aux membres d'inviter votre bot ou non.
+- Mise à jour du fichier d'explication avec plus de détails
+- Ajouts d'un repos contenant des commandes annexes ( FR et EN ) :
+
+- Liste des serveurs sur lequel votre bot est connecté
+- Informations sur les serveurs
+- Informations sur les utilisateurs
