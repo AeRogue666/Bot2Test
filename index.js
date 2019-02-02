@@ -22,10 +22,11 @@ client.on("ready", function() {
 > Lancement en cours...
 ------------------------------------------------------
 ${client.user.tag} s'est correctement lancé !
-Il est actuellement connecté sur ${client.guilds.size} serveur(s)
-ainsi que ${client.channels.size} canaux
-Il y a ${client.users.size} utilisateurs 
-qui peuvent potentiellement utiliser le bot !
+Serveur(s) : ${client.guilds.size}
+Canaux : ${client.channels.size}
+Membres : ${client.users.size}
+Invitation du bot : 
+https://discordapp.com/oauth2/authorize?client_id=${client.user.id}&scope=bot&permissions=${config.nivperms}
 LET'S GO!
 ------------------------------------------------------
 ---------- Bot de Test créé par AeRogue --------------
@@ -120,7 +121,10 @@ break;
 case "invite":
 case "inv":
 console.log(` ${message.author.tag} a utilisé ${config.prefix}invite !`);
-message.reply("Tu souhaite inviter mon bot sur ton Discord ? Pas de problème ! Clique sur le lien --> https://discordapp.com/oauth2/authorize?client_id=" + client.user.id + "&scope=bot&permissions=" + config.nivperms);
+//Si vous souhaitez que les gens puissent inviter votre bot :
+message.reply(", tu souhaite m'inviter sur ton Discord ? Pas de problème ! Clique sur le lien --> https://discordapp.com/oauth2/authorize?client_id=" + client.user.id + "&scope=bot&permissions=" + config.nivperms);
+//Si vous ne souhaitez pas que les gens puissent inviter votre bot :
+//message.reply("Désolé mais ce n'est pas possible. Je ne suis pas invitable. Par contre tu peux aller télécharger ma version officielle ici : https://github.com/BinaryBreakFast/Bot2Test");
 break;
  }	
 });
