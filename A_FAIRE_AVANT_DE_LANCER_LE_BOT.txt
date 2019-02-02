@@ -23,7 +23,12 @@ soit des plus amusantes.
 
 Etape 1 - Avant utilisation
 
-Avant d'utiliser le bot il faut installer les packages ( ou paquets en français ).
+Avant d'utiliser le bot veuillez vérifier que la commande npm vous donne quelque chose.
+Si windows vous retourne une erreur c'est que vous n'avez pas npm.
+
+Pour l'obtenir veuillez téléchager node.js ici : https://nodejs.org/fr/
+
+Après installation de node.js, il faut installer les packages ( ou paquets en français ).
 Ils permettent au bot d'effectuer des tâches complexes mais aussi de le faire fonctionner.
 
 Nous allons devoir installer les packages contenus dans package.json ainsi que les packages contenus dans le fichier index.js
