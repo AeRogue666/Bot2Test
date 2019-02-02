@@ -29,8 +29,12 @@ Mise à jour effectuée - 02/02/2019 - 0.0.1b
 - Mise à jour de la console pour permettre d'inviter le bot sur votre Discord sans faire de manipulation particulière.
 - Mise à jour de la commande d'invitation pour vous permettre de choisir entre permettre aux membres d'inviter votre bot ou non.
 - Mise à jour du fichier d'explication avec plus de détails
-- Ajouts d'un repos contenant des commandes annexes ( FR et EN ) :
+- Ajouts d'un dépôt contenant des commandes annexes ( FR et EN ) :
 
 - Liste des serveurs sur lequel votre bot est connecté
 - Informations sur les serveurs
 - Informations sur les utilisateurs
+
+Le dépôt : https://github.com/BinaryBreakFast/Bot2TestCommands
+
+
